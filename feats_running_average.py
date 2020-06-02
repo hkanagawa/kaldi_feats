@@ -2,7 +2,8 @@
 
 import argparse
 import numpy as np
-import kaldi_io
+from utils import kaldi_io
+
 
 def main_():
 	ap = argparse.ArgumentParser(usage="")
